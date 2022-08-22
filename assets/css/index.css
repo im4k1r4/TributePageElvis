@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner {
+    background-color: #070707;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-title {
+    width: 250px;
+    filter: invert(1);
+    flex-direction: left;
+}
+
+.header-resume {
+    color: #e5e4e2;
+    padding: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-resume h1 {
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 10px;
+
+}
+
+.header-resume h2 {
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header-picture {
+    width: 450px;
+}
+
+.goldenline {
+    width: 70px;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.resume {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 15px;
+    width: 700px;
+}
+
+.resume-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.resume-text h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 6px;
+    color: #2e2e2e;
+}
+
+.biografia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.biosides {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 35px;
+}
+
+.biografia img {
+    width: 300px;
+}
+
+.bgright {
+    transform: scaleX(-1);
+}
+
+.resume-text .goldenline {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greatest-hits {
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.greatest-hits .goldenline {
+    width: 150px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greatest-hits h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.greatest-hits ul {
+    text-align: center;
+    font-size: 16px;
+}
+
+.greatest-hits li {
+    margin-bottom: 8px;
+}
+
+.lastpresentation {
+    margin-top: 40px;
+}
+
+.lastpresentation .video {
+    display: block;
+    margin:0 auto;
+}
+
+footer {
+    margin-top: 15px;
+    height: 35px;
+}
+
+.footerarea {
+    font-size: 12px;
+    padding: 15px;
+    text-align: center;
+    color: #d3d3d3;
+    background-color: #070707;
+}
+
+.footerarea a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #d3d3d3;
+}
